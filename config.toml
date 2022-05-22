@@ -1,7 +1,7 @@
 baseURL = "https://swiftlaggy.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Your Site Title" # This appears in tab bar
+title = "Jamie Gunner" # This appears in tab bar
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
@@ -13,41 +13,46 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]  
+    identifer = "Home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]  
     identifer = "About"
     name = "About"
     url = "/about/"
-    weight = 1
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
     weight = 2
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 3
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 4
+ # [[menu.main]]
+  #  identifier = "tags"
+   # name = "Tags"
+    #url = "/tags/"
+    #weight = 3
+  #[[menu.main]]
+   # identifier = "categories"
+    #name = "Categories"
+    #url = "/categories/"
+    #weight = 4
 
 [params]
   version = "0.2.X"
-  description = "Site description (used for SEO)."
-  keywords = ["keywords", "for", "SEO"]
+  description = "Website for Jamie Gunner."
+  keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV"]
   defaultTheme = "dark"
   gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-  # images = ["/logo.svg"] favicon (I think)
+   images = ["/images/sw.svg"] #favicon (I think)
 
   [params.app]
   # How site will appear on mobile
-    title = "Site Title"
+    title = "Jamie Gunner"
     noFavicon = true
-    svgFavicon = "/CUEH.svg"
+    svgFavicon = "/images/sw.svg"
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -74,8 +79,8 @@ enableRobotsTXT = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      #logo = "/CUEH.svg"
-      name = "Your Site Title" # appears in header
+      #logo = "/images/sw.jpeg"
+      name = "Jamie Gunner" # appears in header
       pre = ""
       post = ""
       typeit = false
@@ -105,12 +110,11 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      gravatarEmail = ""
-      avatarURL = ""
-      avatarAlt = "Alt text for image"
-      title = "Avatar Name"
-      subtitle = "homepage subtitle"
-      disclaimer = ""
+      avatarURL = "/images/sw.jpeg"
+      avatarAlt = "Temporary avatar"
+      title = "Jamie Gunner"
+      subtitle = "Student of Ethical Hacking and Cyber Security "
+      disclaimer = "I learn things, figure stuff out and I'll post it all here for you to learn a thing or two as well."
       typeit = true
       social = true #whether to show social icons on homepage
 
@@ -120,10 +124,10 @@ enableRobotsTXT = true
       defaultHiddenFromHomePage = false
 
   [params.social]
-    GitHub = "#"
-    Linkedin = "#"
-    Twitter = "#"
-    Telegram = "#"
+    GitHub = "SwiftLaggy"
+    Linkedin = "jamie-gunner"
+    Twitter = "SwiftLaggy"
+    Reddit = "SwiftLaggy_"
     RSS = true
 
   [params.page]
@@ -207,11 +211,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-      images = [""]
+      images = ["/images/sw.jpeg"]
       # Publisher info
       [params.page.seo.publisher]
-        name = "SEO Author name"
-        logoUrl = ""
+        name = "Jamie Gunner"
+        logoUrl = "/images/sw.jpeg"
 
   [params.typeit]
     speed = 100

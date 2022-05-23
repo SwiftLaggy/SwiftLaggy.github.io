@@ -27,5 +27,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.HUGODEPLOYKEY }}
+          deploy_key: ${{ secrets.HUGODEPLOYKEY }}
           publish_dir: ./public

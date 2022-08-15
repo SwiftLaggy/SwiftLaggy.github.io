@@ -2,4 +2,4 @@
 title: About Jamie
 ---
 
-Write your about page here!
+I am a student from Coventry University, I have finished BSc ethical hacking and cyber security

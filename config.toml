@@ -114,7 +114,8 @@ enableRobotsTXT = true
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Student of Ethical Hacking and Cyber Security "
-      disclaimer = "I learn things, figure stuff out and I'll post it all here for you to learn a thing or two as well."
+      disclaimer = "I learn things, figure stuff out and I'll post it all here for you to learn a thing or two as well.
+      Join me while I play through CTF's, play with machines and while I study on websites such as TryHackMe and HackTheBox!"
       typeit = true
       social = true #whether to show social icons on homepage
 

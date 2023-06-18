@@ -46,13 +46,13 @@ enableRobotsTXT = true
   gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-   images = ["/images/sw.svg"] #favicon (I think)
+   images = ["/content/blog/images/sw.svg"] #favicon (I think)
 
   [params.app]
   # How site will appear on mobile
     title = "Jamie Gunner"
     noFavicon = true
-    svgFavicon = "/images/sw.svg"
+    svgFavicon = "/content/blog/images/sw.svg"
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -110,7 +110,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/images/sw.jpg"
+      avatarURL = "/content/blog/images/sw.jpg"
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Student of Ethical Hacking and Cyber Security "
@@ -215,7 +215,7 @@ enableRobotsTXT = true
       # Publisher info
       [params.page.seo.publisher]
         name = "Jamie Gunner"
-        logoUrl = "/images/sw.jpg"
+        logoUrl = "/content/blog/images/sw.jpg"
 
   [params.typeit]
     speed = 100

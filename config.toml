@@ -110,7 +110,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/images/sw.jpeg"
+      avatarURL = "/images/sw.jpg"
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Student of Ethical Hacking and Cyber Security "

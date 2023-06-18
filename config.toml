@@ -41,7 +41,7 @@ enableRobotsTXT = true
 [params]
   version = "0.2.X"
   description = "Website for Jamie Gunner."
-  keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV"]
+  keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
   defaultTheme = "dark"
   gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
   fingerprint = ""

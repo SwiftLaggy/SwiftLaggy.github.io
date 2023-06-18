@@ -79,7 +79,7 @@ enableRobotsTXT = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      #logo = "/images/sw.jpeg"
+      #logo = "/images/sw.jpg"
       name = "Jamie Gunner" # appears in header
       pre = ""
       post = ""
@@ -211,11 +211,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-      images = ["/images/sw.jpeg"]
+      images = ["/images/sw.jpg"]
       # Publisher info
       [params.page.seo.publisher]
         name = "Jamie Gunner"
-        logoUrl = "/images/sw.jpeg"
+        logoUrl = "/images/sw.jpg"
 
   [params.typeit]
     speed = 100

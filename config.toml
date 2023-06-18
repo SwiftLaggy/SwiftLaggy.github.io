@@ -79,7 +79,7 @@ enableRobotsTXT = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      #logo = "/images/sw.jpg"
+      #logo = "/images/sw.jpeg"
       name = "Jamie Gunner" # appears in header
       pre = ""
       post = ""
@@ -110,7 +110,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/content/blog/images/sw.jpg"
+      avatarURL = "/content/blog/images/sw.jpeg"
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Student of Ethical Hacking and Cyber Security "
@@ -211,11 +211,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-      images = ["/images/sw.jpg"]
+      images = ["/images/sw.jpeg"]
       # Publisher info
       [params.page.seo.publisher]
         name = "Jamie Gunner"
-        logoUrl = "/content/blog/images/sw.jpg"
+        logoUrl = "/content/blog/images/sw.jpeg"
 
   [params.typeit]
     speed = 100

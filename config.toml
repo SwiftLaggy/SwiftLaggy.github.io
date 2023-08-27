@@ -218,7 +218,7 @@ enableRobotsTXT = true
         logoUrl = "/images/sw.jpeg"
 
   [params.typeit]
-    speed = 100
+    speed = 150
     cursorSpeed = 1000
     cursorChar = "|"
     duration = -1

@@ -27,7 +27,9 @@ To test our connection with a box you use an ICMP echo request called ``ping``
 
 # Starting point - Ping
 The first action you should perform on any of these boxes is  ``ping``  to ensure that you are connect to the box and also HTB. So you will need to perform
-```ping machineIP```.
+```
+ping machineIP
+``` 
 
 ![Picture 5](/images/Meow/Ping.png)
 
@@ -37,8 +39,10 @@ Once we know that the machine is connected we can continue with the machine.
 ![Picture 6](/images/Meow/Task5.jpg)
 The next tool we will be using is ``nmap``. Nmap gives us plenty of options which we will explore in other boxes that I will complete later on this website. 
 # Using Nmap
-The next action being taken will be an nmap scan. This scan will consist of using ``-sV``; a scan allowing myself to see the services running on certain ports and their version. I also use  ``-vv``; this allows the scan to increase verbosity significantly. The scan will look like```
-nmap -sV -vv machineIP```.
+The next action being taken will be an nmap scan. This scan will consist of using ``-sV``; a scan allowing myself to see the services running on certain ports and their version. I also use  ``-vv``; this allows the scan to increase verbosity significantly. The scan will look like
+```
+nmap -sV -vv machineIP
+```
 
 ![Picture 7](/images/Meow/Nmap.png)
 
@@ -55,7 +59,10 @@ As you can see here, there is only 1 port visibly open and it is telnet which wo
 As we can see in the above scan that port 23 is ``telnet`` so therefore we have now answered our next task but we must now set up to use this service to penetrate further into the box. 
 
 # Telnet
-We now use the terminal in order to login to telnet using the command ```telnet machineIP```.
+We now use the terminal in order to login to telnet using the command 
+```
+telnet machineIP
+```
 
 ![Picture 10](/images/Meow/Telnet.png)
 
@@ -67,7 +74,11 @@ I then login to telnet using the default credential of ``root`` and was instantl
 
 ![Picture 12](/images/Meow/Ls.png)
 
-We can clearly see there is a flag.txt file which is what our last task is on HTB, we will need to ``cat`` into this file providing the command ```cat flag.txt```. This will allow us to see the flag
+We can clearly see there is a flag.txt file which is what our last task is on HTB, we will need to ``cat`` into this file providing the command 
+```
+cat flag.txt
+```
+. This will allow us to see the flag
 
 ![Picture 13](/images/Meow/Cat.png)
 

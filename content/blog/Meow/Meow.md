@@ -35,10 +35,7 @@ To test our connection with a box you use an ICMP echo request called ``ping``
 The first action you should perform on any of these boxes is  ``ping``  to ensure that you are connect to the box and also HTB. So you will need to perform
 ```
 ping machineIP
-``` 
-
-![Picture 5](/images/Meow/Ping.png)
-
+```
 Once we know that the machine is connected we can continue with the machine.
 
 # Task 5 

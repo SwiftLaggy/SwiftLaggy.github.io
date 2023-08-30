@@ -11,7 +11,7 @@ description: "My first box on HTB"
 I have performed my first HackTheBox machine called "Meow", this is of course a starting point box allowing me to get used to using these machines and how they work. I will also be using my own machine to hack these boxes. My current machine is running Parrot OS on VMware. Firstly we must answer a couple of questions before we hack this machine. 
 
 # Task 1 
-![Picture 1](./images/Task1.jpg)
+![Picture 1](../images/Task1.jpg)
 
 The first answer is ``Virtual Machine``.
 

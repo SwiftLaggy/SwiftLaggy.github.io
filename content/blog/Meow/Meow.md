@@ -1,6 +1,6 @@
 ---
 title: "HTB: Meow"
-date: 2023-08-01T14:49:23+01:00
+date: 2023-08-30T14:49:23+01:00
 draft: false
 author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"
@@ -10,7 +10,7 @@ description: "My first box on HTB"
 # Introduction
 I have performed my first HackTheBox machine called "Meow", this is of course a starting point box allowing me to get used to using these machines and how they work. I will also be using my own machine to hack these boxes. My current machine is running Parrot OS on VMware. Firstly we must answer a couple of questions before we hack this machine. 
 # Task 1 
-![Picture 1](images/Task1.jpg)
+![Picture 1](SwiftLaggy.github.io/content/blog/Meow/images/Task1.jpg)
 The first answer is ``Virtual Machine``.
 
 # Task 2

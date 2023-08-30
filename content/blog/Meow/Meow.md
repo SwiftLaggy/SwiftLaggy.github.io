@@ -44,7 +44,7 @@ nmap -sV -vv machineIP```.
 
 # Nmap Result
 Once the scan has finished we will then see a list of results. It is quite long however I have taken a snippet of the most important part. Which will show us the ports and services running on those ports.
-![Picture 8](images/Nmap Result.png)
+![Picture 8](images/NmapResult.png)
 
 As you can see here, there is only 1 port visibly open and it is telnet which would allow us to answer our next task.
 
@@ -59,7 +59,7 @@ We now use the terminal in order to login to telnet using the command ```telnet 
 ![Picture 10](images/Telnet.png)
 
 # Task 7
-![Picture 11](images/Task7 1.jpg)
+![Picture 11](images/Task7.jpg)
 The final answerable question is looking for the username for which does not require a password on telnet which is ``root``.
 # Telnet Login
 I then login to telnet using the default credential of ``root`` and was instantly allowed access with root privileges we can now access the ``ls`` command to see what files are accessible:

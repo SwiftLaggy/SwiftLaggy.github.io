@@ -1,6 +1,6 @@
 ---
 title: "Miscellaneous Challenge"
-date: 2023-00-16T23:27:00+01:00
+date: 2023-10-16T23:27:00+01:00
 draft: false
 author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"

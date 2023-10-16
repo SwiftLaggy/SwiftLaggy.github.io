@@ -40,7 +40,7 @@ But the email states it is Base64 encoding. I then noticed that it is a .ZIP as 
 
 This website gave us Application.zip containing a .TXT file however, it seems to be password protected with no password in sight. 
 
-![Picture 4](../Images/Passworded file.jpg)
+![Picture 4](../Images/Passwordedfile.jpg)
 
 There must be a password. I continued on as I would normally, with the information that there was a password given previously. Maybe it could be elsewhere, perhaps the metadata of the .PNG of the next Base64 encoding. As expected, Cyberchef could not decode it as it is an image however, one must test these things.
 # The Second Base64
@@ -95,11 +95,11 @@ print(f"Email combinations with numbers and special characters have been saved t
 This created a massive file of roughly 830584 lines. Once I ran this through JohnTheRipper, we got the answer. But to run it through John, I needed to perform other actions. So I remain on Kali, as this would possess the tools needed to continue, Starting with Zip2John. This takes all hashes that needed to be cracked, and turns them into a file in order for John to work his magic and crack the password using a word list. 
 
 # JohnTheRipper
-![Picture 8](../Images/Zip hashes.jpg)
+![Picture 8](../Images/Ziphashes.jpg)
 
 Then, once I had retrieved the "zip.hashes" file, I ran John with the word list created earlier and obtained:
 
-![Picture 9](../Images/John password.jpg)
+![Picture 9](../Images/Johnpassword.jpg)
 
  Once I obtained the password, I unfortunately had to move to ParrotOS as John had noticed I had run this command before and obtained the password. So I figured I'd go to Parrot to finish the job for a 2nd time. But huzzah! We have the password. Let's open the flag.txt file.
  

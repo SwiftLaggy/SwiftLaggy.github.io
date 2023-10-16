@@ -14,7 +14,7 @@ After attempting to complete this, my team and I had realised that we may not ha
 
 Within the challenge .ZIP folder contained a singular .TXT email file. 
 
-![Picture 1](./images/Email.jpg)
+![Picture 1](./Images/Email.jpg)
 
 We can see in this email that it covers many areas. The first email holds a lot of  information, starting with Jenny's "jfeng@veryrealmail.com". Then, we have her personal information:
 
@@ -32,30 +32,30 @@ One of which is far too long to input on this website however, I can paste the o
 
 Once this is put into Cyberchef, we are given a very odd string:
 
-![Picture 2](../images/CyberFail.jpg)
+![Picture 2](../Images/CyberFail.jpg)
 
 But the email states it is Base64 encoding. I then noticed that it is a .ZIP as previously stated. So, I did some research and found Base64 to file from Base64 guru. 
 
-![Picture 3](../images/B642F.jpg)
+![Picture 3](../Images/B642F.jpg)
 
 This website gave us Application.zip containing a .TXT file however, it seems to be password protected with no password in sight. 
 
-![Picture 4](../images/Passworded file.jpg)
+![Picture 4](../Images/Passworded file.jpg)
 
 There must be a password. I continued on as I would normally, with the information that there was a password given previously. Maybe it could be elsewhere, perhaps the metadata of the .PNG of the next Base64 encoding. As expected, Cyberchef could not decode it as it is an image however, one must test these things.
 # The Second Base64
 
-![Picture 5](../images/Base64Fail2.jpg)
+![Picture 5](../Images/Base64Fail2.jpg)
 
 As cyberchef had an issue, I had to find another alternative. As we were loading an image from Base64, it was only natural to go for a Base64 to image. So I found a website with such services and it returned:
 
-![Picture 6](../images/B64toImage.jpg)
+![Picture 6](../Images/B64toImage.jpg)
 
 # Stenography
 
 We were told "(m)data"; I believe this to be the meta data. So, I loaded up my Kali Linux machine with a stenography tool and looked at the meta data. I could use basic websites, but I prefer to perfect the skills with tools rather than use websites. I decided to use an easy tool, as I was only searching the meta data. 
 
-![Picture 7](../images/Exif.jpg)
+![Picture 7](../Images/Exif.jpg)
 
 As explained in the Copyright field, there is a password format, "birthDateMail\*\*\*R3ply!". It was specified by the creators. The asterixis' are random characters/symbols, which means we have a base password format with 3 random characters. We have all the information and this would be: ```
 ```
@@ -95,15 +95,15 @@ print(f"Email combinations with numbers and special characters have been saved t
 This created a massive file of roughly 830584 lines. Once I ran this through JohnTheRipper, we got the answer. But to run it through John, I needed to perform other actions. So I remain on Kali, as this would possess the tools needed to continue, Starting with Zip2John. This takes all hashes that needed to be cracked, and turns them into a file in order for John to work his magic and crack the password using a word list. 
 
 # JohnTheRipper
-![Picture 8](../images/Zip hashes.jpg)
+![Picture 8](../Images/Zip hashes.jpg)
 
 Then, once I had retrieved the "zip.hashes" file, I ran John with the word list created earlier and obtained:
 
-![Picture 9](../images/John password.jpg)
+![Picture 9](../Images/John password.jpg)
 
  Once I obtained the password, I unfortunately had to move to ParrotOS as John had noticed I had run this command before and obtained the password. So I figured I'd go to Parrot to finish the job for a 2nd time. But huzzah! We have the password. Let's open the flag.txt file.
  
-![Picture 10](../images/Flag.jpg)
+![Picture 10](../Images/Flag.jpg)
 
 We have now obtained a flag, brilliant! 100 points to us in the CTF. Unfortunately, we did not continue this event, on the basis that it was quite late and slightly beyond our own capabilities but, that is why we do them, to see where we need to sharpen our skills. 
 

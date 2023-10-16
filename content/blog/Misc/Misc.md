@@ -1,3 +1,12 @@
+---
+title: "Miscellaneous Challenge"
+date: 2023-00-16T23:27:00+01:00
+draft: false
+author: "Jamie Gunner"
+authorLink: "https://github.com/SwiftLaggy"
+description: "Miscellaneous Challenge a CTF"
+---
+
 On a recent CTF that I competed in, me and my team had worked together on an incredibly tough Misc challenge. Considering that this was the first of many challenges, it was quite an arduous task.
 After attempting to complete this, my team and I had realised that we may not have trained enough for this CTF challenge. Despite this, I wanted to give a small write up detailing what we managed to accomplish as this was a considerably enjoyable challenge.
 

@@ -14,7 +14,7 @@ After attempting to complete this, my team and I had realised that we may not ha
 
 Within the challenge .ZIP folder contained a singular .TXT email file. 
 
-![Picture 1](../Misc/Images/Email.jpg)
+![Picture 1](SwiftLaggy.github.io/content/blog/Misc/Email.jpg)
 
 We can see in this email that it covers many areas. The first email holds a lot of  information, starting with Jenny's "jfeng@veryrealmail.com". Then, we have her personal information:
 

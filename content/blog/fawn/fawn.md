@@ -14,7 +14,7 @@ I was successful in completing the second starting point box for HackTheBox, by 
 Before we begin to hack this machine, we must first answer a couple of questions.
 
 # Task 1
-![Picture 1](../images/FTPAcronym.png)
+![Picture 1](../images/FTPAcronym.jpg)
 
 At the beginning of this task, it asks of you the explanation of the acronym FTP, which is File Transfer Protocol:
 

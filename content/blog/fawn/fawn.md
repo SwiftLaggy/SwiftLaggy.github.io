@@ -50,7 +50,7 @@ nmap -O -sV -vv machineIP
 ![Picture 6](../images/Namo1.jpg)
 
 # Task 5
-![Picture 7](../images/ScanTask1.jpg)
+![Picture 7](../images/ScanTask.jpg)
 ![Picture 8](../images/Nmapport.jpg)
 
 After using the ``nmap`` command we can see the port that FTP is on and the version of FTP. 
@@ -73,7 +73,7 @@ For your reference, here is a screenshot of the ``ftp -h`` command result within
 # FTP Help
 
 Within the FTP terminal itself, it will also provide you with another help menu for the specific command you can use in whatever scenario you might be in. 
-![Picture 1](../images/FTPHELP2.jpg)
+![Picture 21](../images/FTPHELP2.jpg)
 
 # Task 8 
 

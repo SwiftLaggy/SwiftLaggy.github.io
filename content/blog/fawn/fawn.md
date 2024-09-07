@@ -19,7 +19,7 @@ Before we begin to hack this machine, we must first answer a couple of questions
 At the beginning of this task, it asks of you the explanation of the acronym FTP, which is File Transfer Protocol:
 
 # Task 2
-![Picture 2](../images/PortFTP1.jpg)
+![Picture 2](../images/PortFTP.jpg)
 
 File Transfer Protocol is a network protocol available on port 20, which allows for the transfer of data, via a data channel and port 21, which is used to establish a connection between two hosts.
 
@@ -29,7 +29,7 @@ File Transfer Protocol is a network protocol available on port 20, which allows 
 To continue the explanation of FTP, we have another protocol called SFTP, which stands for SSH, or secure File Transfer Protocol. This utilises port 22.
 
 # Task 4
-![Picture 4](../images/PingTask1.jpg)
+![Picture 4](../images/PingTask.jpg)
 
 To test our connection with a box, you use an ICMP echo request called ``ping``.
 

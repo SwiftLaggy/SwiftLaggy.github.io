@@ -16,7 +16,7 @@ Before we begin to hack this machine, we must first answer a couple of questions
 # Task 1
 ![Picture 1](../images/FTPAcronym.jpg)
 
-At the beginning of this task, it asks of you the explanation of the acronym FTP, which is File Transfer Protocol:
+At the beginning of this task, it asks of you the explanation of the acronym FTP, which is File Transfer Protocol.
 
 # Task 2
 ![Picture 2](../images/PortFTP.jpg)

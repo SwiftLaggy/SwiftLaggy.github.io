@@ -1,7 +1,7 @@
 ---
 title: "HTB: Dancing"
 date: 2024-09-09T17:30:00+01:00
-draft: true
+draft: false
 author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"
 description: "Starting Point Dancing HTB"
@@ -42,16 +42,19 @@ nmap -sV -vv machineIP
 ![Picture 4](../images/Nmap.jpg)
 
 # Task 3
+
 ![Picture 5](../images/TaskService.jpg)
 
 After completing our ``nmap`` scan, we can see there are three ports open however, as we know, SMB resides on port 445. We can see the service name on 445 is called ``microsoft-ds``.
 
 # SMB Help
+
 ![Picture 6](../images/SMBclienthelp.jpg)
 
 Within the terminal, I am now using a new service/application. Therefore, I want to look at the options I can use within the service to ensure I am using it correctly. The image above is actually an error message help screen however, you can get a better and more in-depth version using the ``-?`` or ``--help`` options. 
 
 # Task 4
+
 ![Picture 7](../images/TaskSMBOption.jpg)
 
 As we can see from the above terminal screenshot,  ``-L`` is the option we are looking for in order to list the available shares on the box. 
@@ -76,6 +79,7 @@ We can see within the ``WorkShares`` that there are two folder locations, ``Amy.
 [Picture 12](../images/SMBlsworknotes.jpg)
 
 In the next screenshots, we ``get`` the ``worknotes.txt`` file, and look inside to find a set of instructions however, this is most likely not important to us. However, in later boxes, it might be useful to remember that there is an Apache server, and they are in the process of securing the FTP server.
+
 [Picture 13](../images/Getworknotes.jpg)
 
 [Picture 14](../images/Worknotes.jpg)
@@ -84,12 +88,15 @@ In the next screenshots, we ``get`` the ``worknotes.txt`` file, and look inside 
 [Picture 15](../images/TaskGet.jpg)
 
 Lastly, as we saw in the previous task, we used the ``get`` command to download the files we want. In the screenshot below, we can see that James has our flat. 
+
 [Picture 16](../images/SMBlsFlag.jpg)
 
 So now we ``get flag.txt`` and then open it to get our flag and complete our next box. 
+
 [Picture 17](../images/Getflag.jpg)
 
 [Picture 18](../images/Flag.jpg)
+
 # Final Thoughts
 
 This concludes the finishing stages for this box on HackTheBox. It provided a good insight into SMB, allowing me to learn the basics of SMB, how to traverse and obtain another flag.  I have used SMB in the past for my university module, so this was not entirely new to me but, it was nice being able to revisit an old vulnerability. I would like to experience more with SMB and see what I can do with it in the future. 

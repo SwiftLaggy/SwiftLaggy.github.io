@@ -1,6 +1,6 @@
 ---
 title: "HTB: Dancing"
-date: 2024-09-09T17:30:00+01:00
+date: 2024-09-08T21:42:00+01:00
 draft: false
 author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"

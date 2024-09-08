@@ -112,4 +112,4 @@ As you can see, after downloading the file, we can access it using a text editor
 
 # Final Thoughts
 
-This concludes the finishing stages for the first box on HackTheBox. It provided a good insight into FTP, allowing me to learn the basics of FTP and obtain another flag.  This newfound interest has sparked a curiosity, and I would like to see some exploits with FTP and SFTP. 
+This concludes the finishing stages on this box on HackTheBox. It provided a good insight into FTP, allowing me to learn the basics of FTP and obtain another flag.  This newfound interest has sparked a curiosity, and I would like to see some exploits with FTP and SFTP. 

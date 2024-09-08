@@ -72,30 +72,30 @@ Now, using the option, we can see there are 4 shares available on this box.
 
 I made a small assumption from this point, that ``WorkShares`` was the share we could access without a password. It was also a huge hint from HTB however, it would be incredibly unsecure if they allowed anyone into the Admin or C drive.
 
-[Picture 11](../images/SMBworkshares.jpg)
+![Picture 11](../images/SMBworkshares.jpg)
 
 We can see within the ``WorkShares`` that there are two folder locations, ``Amy.J`` and ``James.P``. We can access both of these. As shown in the screenshot below, the Amy folder possesses a text file called ``worknotes``. 
 
-[Picture 12](../images/SMBlsworknotes.jpg)
+![Picture 12](../images/SMBlsworknotes.jpg)
 
 In the next screenshots, we ``get`` the ``worknotes.txt`` file, and look inside to find a set of instructions however, this is most likely not important to us. However, in later boxes, it might be useful to remember that there is an Apache server, and they are in the process of securing the FTP server.
 
-[Picture 13](../images/Getworknotes.jpg)
+![Picture 13](../images/Getworknotes.jpg)
 
-[Picture 14](../images/Worknotes.jpg)
+![Picture 14](../images/Worknotes.jpg)
 
 # Task 7
-[Picture 15](../images/TaskGet.jpg)
+![Picture 15](../images/TaskGet.jpg)
 
 Lastly, as we saw in the previous task, we used the ``get`` command to download the files we want. In the screenshot below, we can see that James has our flat. 
 
-[Picture 16](../images/SMBlsFlag.jpg)
+![Picture 16](../images/SMBlsFlag.jpg)
 
 So now we ``get flag.txt`` and then open it to get our flag and complete our next box. 
 
-[Picture 17](../images/Getflag.jpg)
+![Picture 17](../images/Getflag.jpg)
 
-[Picture 18](../images/Flag.jpg)
+![Picture 18](../images/Flag.jpg)
 
 # Final Thoughts
 

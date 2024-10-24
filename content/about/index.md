@@ -30,6 +30,7 @@ __Bachelor's__
 - Ethical Hacking
 - Data Recovery and Advanced Digital Forensic Analysis
 - Individual Project
+  
 __Master's__
 - Automotive Cyber Security
 - Ethical Hacking
@@ -65,7 +66,7 @@ In my leisure time, I enjoy gaming. My favorite game is The Witcher 3, and I hav
 I have achieved the following achievements and certifications:
 [![CompTIA Network+ ce Certification](N+.png)](https://www.credly.com/badges/5642430e-4056-4d0e-a03a-8f25d22be8a7)
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=332256" style='border:none;'></iframe>
+<script src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=332256" style='border:none;'></script>
 
 
 

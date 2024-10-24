@@ -288,7 +288,6 @@ enableRobotsTXT = true
 [privacy]
   #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
-    # ...
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
@@ -307,11 +306,10 @@ enableRobotsTXT = true
   
 [hugo.IsMultilingual]
 
-[Sites.Default]
+[.Sites.Default]
 
 # Options to make hugo output files
 [outputs]
-  # 
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
   section = ["HTML", "RSS"]

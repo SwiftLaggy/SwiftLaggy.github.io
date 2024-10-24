@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-
+env:
+  using: 'node20'
+  main: 'main.js'
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest

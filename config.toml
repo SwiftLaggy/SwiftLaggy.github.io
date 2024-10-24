@@ -304,6 +304,10 @@ enableRobotsTXT = true
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
+  
+[hugo.IsMultilingual]
+
+[.Sites.Default]
 
 # Options to make hugo output files
 [outputs]

@@ -1,6 +1,6 @@
 baseURL = "https://swiftlaggy.github.io/"
-#defaultContentLanguage = "en"
-#languageCode = "en"
+defaultContentLanguage = "en"
+languageCode = "en"
 title = "Jamie Gunner" # This appears in tab bar
 timeZone = "Europe/London"
 enableGitInfo = true

@@ -306,8 +306,6 @@ enableRobotsTXT = true
   
 [hugo.IsMultilingual]
 
-[.Sites.Default]
-
 # Options to make hugo output files
 [outputs]
   home = ["HTML", "RSS", "JSON"]

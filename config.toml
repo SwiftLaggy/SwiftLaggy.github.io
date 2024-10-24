@@ -307,7 +307,7 @@ enableRobotsTXT = true
   
 [hugo.IsMultilingual]
 
-[.Sites.Default]
+[Sites.Default]
 
 # Options to make hugo output files
 [outputs]

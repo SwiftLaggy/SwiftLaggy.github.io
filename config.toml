@@ -273,12 +273,6 @@ enableRobotsTXT = true
     startLevel = 2
     endLevel = 6
 
-# Default post author (if not specified)
-[author]
-  name = ""
-  email = ""
-  link = ""
-
 # Sitemap config
 [sitemap]
   changefreq = "weekly"

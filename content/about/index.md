@@ -50,7 +50,7 @@ In my leisure time, I enjoy gaming. My favorite game is The Witcher 3, and I hav
 ### Achievements and Certifications 
 I have achieved the following achievements and certifications:
 
-[![CompTIA Network+ ce Certification](N+.png =100x20)](https://www.credly.com/badges/5642430e-4056-4d0e-a03a-8f25d22be8a7)
+[![CompTIA Network+ ce Certification](N+.png)](https://www.credly.com/badges/5642430e-4056-4d0e-a03a-8f25d22be8a7)
 
 
 

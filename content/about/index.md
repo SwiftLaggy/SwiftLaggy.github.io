@@ -53,7 +53,6 @@ I have achieved the following achievements and certifications:
 [![CompTIA Network+ ce Certification](N+.png =100x20)](https://www.credly.com/badges/5642430e-4056-4d0e-a03a-8f25d22be8a7)
 
 
-{{< myshortcode >}}<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=332256" style='border:none;'></iframe>{{< /myshortcode >}}
 
 
 

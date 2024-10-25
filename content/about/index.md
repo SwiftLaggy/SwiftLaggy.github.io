@@ -1,5 +1,6 @@
 ---
-title: "About Jamie" description: "Hello, I’m Jamie; read this page to find out more about me!"
+title: "About Jamie" 
+description: "Hello, I'm Jamie; read this page to find out more about me!"
 ---
 
 Hello, I'm Jamie. I graduated with first-class honours from Coventry University, where I studied Cybersecurity and Ethical Hacking. I became passionate about computing in 2014, leading me to pursue this field throughout college and into my master's degree.

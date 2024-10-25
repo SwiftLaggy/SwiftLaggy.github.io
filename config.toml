@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 [module]
   [[module.imports]]
-    path = "github.com/jackorcherton/hackit"
+    path = "github.com/hugo-fixit/FixIt"
 
 
 [menu]

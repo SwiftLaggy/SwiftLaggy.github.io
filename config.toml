@@ -31,7 +31,7 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 3
-
+	
 [params]
   version = "0.3.13"
   description = "Website for Jamie Gunner."
@@ -98,7 +98,7 @@ enableRobotsTXT = true
     paginate = 20
     dateFormat = "01-02"
   #  rss = 10
-
+  
   [params.home]
     rss = 10
     [params.home.profile]
@@ -109,7 +109,7 @@ enableRobotsTXT = true
       title = "Jamie Gunner"
       subtitle = "Master Graduate and SOC Analyst"
       disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering CTFs, and navigating TryHackMe and HackTheBox. Together, we'll decode the mysteries of technology!"
-      
+
     [params.home.posts]
       enable = true
       paginate = 6
@@ -304,3 +304,4 @@ enableRobotsTXT = true
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
+

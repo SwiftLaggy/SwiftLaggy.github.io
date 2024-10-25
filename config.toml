@@ -31,16 +31,6 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 3
- # [[menu.main]]
-  #  identifier = "tags"
-   # name = "Tags"
-    #url = "/tags/"
-    #weight = 3
-  #[[menu.main]]
-   # identifier = "categories"
-    #name = "Categories"
-    #url = "/categories/"
-    #weight = 4
 
 [params]
   version = "0.3.13"
@@ -109,19 +99,19 @@ enableRobotsTXT = true
     dateFormat = "01-02"
   #  rss = 10
 
-  [params.home]
+ [params.home]
     rss = 10
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/images/sw.jpeg"
+      avatarURL = "/images/Maliketh.jpg"
       avatarAlt = "Temporary avatar"
-      title = "Jamie Gunner"
-      subtitle = "Master Graduate and SOC Analyst"
-      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering CTFs, and navigating TryHackMe and HackTheBox. Together, we'll decode the mysteries of technology!"
+      title = "SnarlyHydra"
+      subtitle = "Aspiring Game Designer" # edit this
+      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering game design/development, and navigating Unity, Unreal Engine, Udemy, and more. Let's explore the intricacies of game design together" # edit this
       typeit = true
       social = true #whether to show social icons on homepage
-
+      
     [params.home.posts]
       enable = true
       paginate = 6

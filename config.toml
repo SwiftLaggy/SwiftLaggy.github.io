@@ -106,7 +106,7 @@ enableRobotsTXT = true
   [params.list]
     paginate = 20
     dateFormat = "01-02"
-    rss = 10
+  #  rss = 10
 
   [params.home]
     rss = 10
@@ -131,7 +131,7 @@ enableRobotsTXT = true
     Linkedin = "jamie-gunner"
     Twitter = "SwiftLaggy"
     Reddit = "SwiftLaggy_"
-    RSS = true
+ #   RSS = true
 
   [params.page]
     hiddenFromHomePage = false

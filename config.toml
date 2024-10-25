@@ -10,9 +10,6 @@ enableRobotsTXT = true
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
-  [module.hugoVersion]
-    extended = true
-    min = "0.134.1"
 
 [menu]
   [[menu.main]]  
@@ -42,7 +39,7 @@ enableRobotsTXT = true
     #weight = 4
 
 [params]
-  version = "0.2.X"
+  version = "0.3.13"
   description = "Website for Jamie Gunner."
   keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
   defaultTheme = "dark"

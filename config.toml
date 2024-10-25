@@ -5,12 +5,14 @@ title = "Jamie Gunner" # This appears in tab bar
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
-theme = ["FixIt"]
+
 
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
-
+  [module.hugoVersion]
+    extended = true
+    min = "0.134.1"
 
 [menu]
   [[menu.main]]  

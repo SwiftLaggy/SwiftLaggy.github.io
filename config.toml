@@ -5,6 +5,7 @@ title = "Jamie Gunner" # This appears in tab bar
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
+theme = ["FixIt"]
 
 [module]
   [[module.imports]]

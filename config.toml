@@ -11,9 +11,10 @@ enableRobotsTXT = true
 [module]
   [[module.imports]]
     path = 'github.com/hugo-fixit/FixIt'
-  [[module.hugoVersion]]
+  [module.hugoVersion]
     extended = true
     min = "0.134.1"
+    
 [menu]
   [[menu.main]]  
     identifer = "Home "

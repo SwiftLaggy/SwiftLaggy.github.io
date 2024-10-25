@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [module]
   [[module.imports]]
-    path = "github.com/hugo-fixit/FixIt"
+    path = 'github.com/hugo-fixit/FixIt'
 
 [menu]
   [[menu.main]]  

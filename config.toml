@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]  
-    identifer = "Home"
+    identifer = "Home "
     name = "Home"
     url = "/"
     weight = 1

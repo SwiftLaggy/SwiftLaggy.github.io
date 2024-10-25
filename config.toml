@@ -7,12 +7,10 @@ timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
 
-
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
 
-    
 [menu]
   [[menu.main]]  
     identifer = "Home "
@@ -39,18 +37,6 @@ enableRobotsTXT = true
   fingerprint = ""
   dateFormat = "2006-01-02"
    images = ["/images/sw.svg"] #favicon (I think)
-
-  [params.app]
-  # How site will appear on mobile
-    title = "Jamie Gunner"
-    noFavicon = true
-    svgFavicon = "/images/sw.svg"
-    # Android browser
-    themeColor = "#ffffff"
-    # Safari
-    iconColor = "#5bbad5"
-    # Windows tile color
-    tileColor = "#da532c"
 
   [params.search]
     enable = true

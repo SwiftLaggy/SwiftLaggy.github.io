@@ -147,8 +147,10 @@ Report scams to [Action Fraud](https://www.actionfraud.police.uk/)
 
 
 **Real-life examples of scams and their impact**:
+![Picture 1](images/HMRCScam.jpg)
 
 ![Picture 1](.images/HMRCScam.jpg)
+
 ![Picture 1](../../images/HMRCScam.jpg)
 
 It is not shown in the image above, but sometimes, being messaged out of the blue by an unknown number, will show text underneath the chat. This will usually say "This sender is not in your contact list". Immediately, this lets you know that it is a potential scam from an unauthorised number. 

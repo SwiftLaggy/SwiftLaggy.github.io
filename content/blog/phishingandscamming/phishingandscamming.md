@@ -1,6 +1,6 @@
 ---
 title: "Phishing and Scamming"
-date: 2024-11-03T00:05:00+01:00
+date: 2024-11-03T00:40:00+01:00
 draft: false
 author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"

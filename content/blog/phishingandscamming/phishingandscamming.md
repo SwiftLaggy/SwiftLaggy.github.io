@@ -7,6 +7,9 @@ authorLink: "https://github.com/SwiftLaggy"
 description: "Phishing and Scamming"
 ---
 
+## Disclaimer
+Do not attempt to contact any of the users within the images of this website, additionally do not attempt to access the website links within this either. 
+
 ## **Introduction**
 
 Welcome to our segment on phishing and scamming. Here’s what you need to know:

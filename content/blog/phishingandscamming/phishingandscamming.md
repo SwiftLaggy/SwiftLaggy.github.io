@@ -584,7 +584,7 @@ https://www.ncsc.gov.uk/collection/phishing-scams
 <br/>
 https://netsafe.org.nz/scams/phishing
 <br/>
-and other links within this presentation
+and other links within this website
 
 ## Disclaimer
 Do not attempt to contact any of the users within the images of this website, additionally do not attempt to access the website links within this either.

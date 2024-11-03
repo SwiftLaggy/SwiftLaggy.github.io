@@ -581,7 +581,9 @@ Never click on anything inside these scam emails, even if they look trustworthy.
 
 ## **Additional Resources**
 https://www.ncsc.gov.uk/collection/phishing-scams
+
 https://netsafe.org.nz/scams/phishing
+
 and other links within this presentation
 
 ## Disclaimer

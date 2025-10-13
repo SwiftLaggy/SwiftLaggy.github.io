@@ -6,7 +6,6 @@ author: "Jamie Gunner"
 authorLink: "https://github.com/SwiftLaggy"
 description: "Phishing and Scamming"
 ---
-## Testing
 ## Disclaimer
 Do not attempt to contact any of the users within the images of this website, additionally do not attempt to access the website links within this either. 
 

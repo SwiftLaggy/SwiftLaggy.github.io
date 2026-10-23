@@ -35,20 +35,20 @@ enableRobotsTXT = true
   version = "0.3.13"
   description = "Website for Jamie Gunner."
   keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
-  defaultTheme = "dark"
+  default_theme = "dark"
   gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
   fingerprint = ""
-  dateFormat = "2006-01-02"
+  date_format = "2006-01-02"
    images = ["/images/sw.svg"] #favicon (I think)
 
   [params.search]
     enable = true
     type = "lunr"
-    contentLength = 4000
+    content_length = 4000
     placeholder = ""
-    maxResultLength = 10
-    snippetLength = 30
-    highlightTag = "em"
+    max_result_length = 10
+    snippet_length = 30
+    highlight_tag = "em"
     absoluteURL = false
     [params.search.algolia]
       index = ""
@@ -56,8 +56,8 @@ enableRobotsTXT = true
       searchKey = ""
 
   [params.header]
-    desktopMode = "fixed"
-    mobileMode = "auto"
+    desktop_mode = "fixed"
+    mobile_mode = "auto"
     [params.header.title]
       # URL of the LOGO
       #logo = "/images/sw.jpeg"
@@ -91,7 +91,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/images/sw.jpeg"
+      avatar_url = "/images/sw.jpeg"
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Master Graduate and SOC Analyst"

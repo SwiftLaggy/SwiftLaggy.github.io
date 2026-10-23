@@ -292,3 +292,8 @@ enableRobotsTXT = true
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
 
+  [taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+

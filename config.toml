@@ -1,6 +1,6 @@
 baseURL = "https://swiftlaggy.github.io/"
 defaultContentLanguage = "en"
-languageCode = "en"
+locale = "en"
 title = "Jamie Gunner" # This appears in tab bar
 Theme = "FixIt"
 timeZone = "Europe/London"
@@ -10,18 +10,19 @@ enableRobotsTXT = true
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
+    version = "v0.3.13"
     [module.hugoVersion]
     extended = true
     min = "0.134.1"
 
 [menu]
   [[menu.main]]  
-    identifer = "Home "
+    identifier = "Home"
     name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]  
-    identifer = "About"
+    identifier = "About"
     name = "About"
     url = "/about/"
     weight = 2
@@ -30,25 +31,25 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 3
-	
+    
 [params]
   version = "0.3.13"
   description = "Website for Jamie Gunner."
   keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
-  default_theme = "dark"
+  defaultTheme = "dark"
   gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
   fingerprint = ""
-  date_format = "2006-01-02"
-   images = ["/images/sw.svg"] #favicon (I think)
+  dateFormat = "2006-01-02"
+  images = ["/images/sw.svg"] #favicon (I think)
 
   [params.search]
     enable = true
     type = "lunr"
-    content_length = 4000
+    contentLength = 4000
     placeholder = ""
-    max_result_length = 10
-    snippet_length = 30
-    highlight_tag = "em"
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
     absoluteURL = false
     [params.search.algolia]
       index = ""
@@ -56,8 +57,8 @@ enableRobotsTXT = true
       searchKey = ""
 
   [params.header]
-    desktop_mode = "fixed"
-    mobile_mode = "auto"
+    desktopMode = "fixed"
+    mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
       #logo = "/images/sw.jpeg"
@@ -91,7 +92,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatar_url = "/images/sw.jpeg"
+      avatarUrl = "/images/sw.jpeg"
       avatarAlt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Master Graduate and SOC Analyst"
@@ -292,8 +293,7 @@ enableRobotsTXT = true
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
 
-  [taxonomies]
+[taxonomies]
   tag = "tags"
   category = "categories"
   author = "authors"
-

@@ -1,8 +1,8 @@
 baseURL = "https://swiftlaggy.github.io/"
 defaultContentLanguage = "en"
 locale = "en"
-title = "Jamie Gunner" # This appears in tab bar
-Theme = "FixIt"
+title = "Jamie Gunner"
+theme = "FixIt"
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
@@ -10,10 +10,9 @@ enableRobotsTXT = true
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
-    version = "v0.3.13"
     [module.hugoVersion]
     extended = true
-    min = "0.134.1"
+    min = "0.158.0"
 
 [menu]
   [[menu.main]]  
@@ -33,36 +32,33 @@ enableRobotsTXT = true
     weight = 3
     
 [params]
-  version = "0.3.13"
   description = "Website for Jamie Gunner."
   keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
-  defaultTheme = "dark"
-  gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
+  default_theme = "dark"
+  git_info = true
   fingerprint = ""
-  dateFormat = "2006-01-02"
-  images = ["/images/sw.svg"] #favicon (I think)
+  date_format = "2006-01-02"
+  images = ["/images/sw.svg"]
 
   [params.search]
     enable = true
     type = "lunr"
-    contentLength = 4000
+    content_length = 4000
     placeholder = ""
-    maxResultLength = 10
-    snippetLength = 30
-    highlightTag = "em"
-    absoluteURL = false
+    max_result_length = 10
+    snippet_length = 30
+    highlight_tag = "em"
+    absolute_url = false
     [params.search.algolia]
       index = ""
-      appID = ""
-      searchKey = ""
+      app_id = ""
+      search_key = ""
 
   [params.header]
-    desktopMode = "fixed"
-    mobileMode = "auto"
+    desktop_mode = "fixed"
+    mobile_mode = "auto"
     [params.header.title]
-      # URL of the LOGO
-      #logo = "/images/sw.jpeg"
-      name = "Jamie Gunner" # appears in header
+      name = "Jamie Gunner"
       pre = ""
       post = ""
       typeit = false
@@ -79,21 +75,19 @@ enableRobotsTXT = true
 
   [params.section]
     paginate = 20
-    dateFormat = "01-02"
+    date_format = "01-02"
     rss = 10
 
   [params.list]
     paginate = 20
-    dateFormat = "01-02"
-  #  rss = 10
+    date_format = "01-02"
   
   [params.home]
     rss = 10
     [params.home.profile]
       enable = true
-      # For the avatar pic on the homepage
-      avatarUrl = "/images/sw.jpeg"
-      avatarAlt = "Temporary avatar"
+      avatar_url = "/images/sw.jpeg"
+      avatar_alt = "Temporary avatar"
       title = "Jamie Gunner"
       subtitle = "Master Graduate and SOC Analyst"
       disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering CTFs, and navigating TryHackMe and HackTheBox. Together, we'll decode the mysteries of technology!"
@@ -101,48 +95,47 @@ enableRobotsTXT = true
     [params.home.posts]
       enable = true
       paginate = 6
-      defaultHiddenFromHomePage = false
+      default_hidden_from_home_page = false
 
   [params.social]
     GitHub = "SwiftLaggy"
     Linkedin = "jamie-gunner"
     Twitter = "SwiftLaggy"
     Reddit = "SwiftLaggy_"
- #   RSS = true
 
   [params.page]
-    hiddenFromHomePage = false
-    hiddenFromSearch = false
+    hidden_from_home_page = false
+    hidden_from_search = false
     twemoji = false
     lightgallery = false
     ruby = false
     fraction = false
     fontawesome = false
-    linkToMarkdown = false
-    rssFullText = false
+    link_to_markdown = false
+    rss_full_text = false
 
     [params.page.toc]
       enable = true
-      keepStatic = true
+      keep_static = true
       auto = true
 
     [params.page.math]
       enable = false
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      copyTex = true
+      block_left_delimiter = ""
+      block_right_delimiter = ""
+      inline_left_delimiter = ""
+      inline_right_delimiter = ""
+      copy_tex = true
       mhchem = true
       
     [params.page.code]
       copy = true
-      maxShownLines = 10
+      max_shown_lines = 10
 
     [params.page.mapbox]
-      accessToken = ""
-      lightStyle = "mapbox://styles/mapbox/light-v9"
-      darkStyle = "mapbox://styles/mapbox/dark-v9"
+      access_token = ""
+      light_style = "mapbox://styles/mapbox/light-v9"
+      dark_style = "mapbox://styles/mapbox/dark-v9"
       navigation = true
       geolocate = true
       scale = true
@@ -182,60 +175,45 @@ enableRobotsTXT = true
       enable = false
       [params.page.comment.utterances]
         enable = true
-        # owner/repo
         repo = ""
-        issueTerm = "pathname"
+        issue_term = "pathname"
         label = "Comments"
-        lightTheme = "github-light"
-        darkTheme = "photon-dark"
+        light_theme = "github-light"
+        dark_theme = "photon-dark"
 
     [params.page.seo]
-      # image URL
       images = ["/images/sw.jpeg"]
-      # Publisher info
       [params.page.seo.publisher]
         name = "Jamie Gunner"
-        logoUrl = "/images/sw.jpeg"
+        logo_url = "/images/sw.jpeg"
 
   [params.typeit]
     speed = 50
-    cursorSpeed = 1000
-    cursorChar = "|"
+    cursor_speed = 1000
+    cursor_char = "|"
     duration = -1
 
   [params.seo]
-    # image URL
     image = ""
-    # thumbnail URL
-    thumbnailUrl = ""
+    thumbnail_url = ""
 
-  #  Analytics config
   [params.analytics]
     enable = false
 
-  #  Cookie consent config
   [params.cookieconsent]
     enable = false
 
-  #  Compatibility config
   [params.compatibility]
-    # whether to use Polyfill.io to be compatible with older browsers
     polyfill = false
-    # whether to use object-fit-images to be compatible with older browsers
-    objectFit = false
+    object_fit = false
 
-# Markup related config in Hugo
 [markup]
-  # Syntax Highlighting
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
-    # false is a necessary configuration
-    # (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
@@ -246,46 +224,36 @@ enableRobotsTXT = true
       taskList = true
       typographer = true
     [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
       unsafe = true
-  # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
 
-# Sitemap config
 [sitemap]
-  changefreq = "weekly"
-  disable = false
-  filename = "sitemap.xml"
-  priority = 0.5
+    changefreq = "weekly"
+    disable = false
+    filename = "sitemap.xml"
+    priority = 0.5
 
-# Permalinks config
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = "posts/:filename"
+    posts = "posts/:filename"
 
-# Privacy config
 [privacy]
-  #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
 
-# Options to make output .md files
 [mediaTypes]
   [mediaTypes."text/plain"]
     suffixes = ["md"]
 
-# Options to make output .md files
 [outputFormats.MarkDown]
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
 
-# Options to make hugo output files
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]

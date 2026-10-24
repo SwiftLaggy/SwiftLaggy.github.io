@@ -20,7 +20,7 @@ At the beginning of this task, it asks of you the explanation of the acronym SMB
 
 # Task 2
 
-![Picture 2](../images/TaskPort.jpg)
+![Picture 2](/images/dancing/TaskPort.jpg)
 
 Server Message Block lives on port 445 and port 139 when it is communicating over NetBIOS however, this is quite old and is not seen as often. 
 
@@ -31,7 +31,7 @@ It is important that you are connected to the boxes before you can begin hacking
 ping machineIP
 ```
 
-![Picture 3](../images/Ping.jpg)
+![Picture 3](/images/dancing/Ping.jpg)
 
 # Using Nmap
 
@@ -39,63 +39,63 @@ The next tool we will be using is ``nmap``. Nmap gives us plenty of options, tho
 ```
 nmap -sV -vv machineIP
 ```
-![Picture 4](../images/Nmap.jpg)
+![Picture 4](/images/dancing/Nmap.jpg)
 
 # Task 3
 
-![Picture 5](../images/TaskService.jpg)
+![Picture 5](/images/dancing/TaskService.jpg)
 
 After completing our ``nmap`` scan, we can see there are three ports open however, as we know, SMB resides on port 445. We can see the service name on 445 is called ``microsoft-ds``.
 
 # SMB Help
 
-![Picture 6](../images/SMBclienthelp.jpg)
+![Picture 6](/images/dancing/SMBclienthelp.jpg)
 
 Within the terminal, I am now using a new service/application. Therefore, I want to look at the options I can use within the service to ensure I am using it correctly. The image above is actually an error message help screen however, you can get a better and more in-depth version using the ``-?`` or ``--help`` options. 
 
 # Task 4
 
-![Picture 7](../images/TaskSMBOption.jpg)
+![Picture 7](/images/dancing/TaskSMBOption.jpg)
 
 As we can see from the above terminal screenshot,  ``-L`` is the option we are looking for in order to list the available shares on the box. 
 # Task 5
 
-![Picture 8](../images/TaskShares.jpg)
+![Picture 8](/images/dancing/TaskShares.jpg)
 
-![Picture 9](../images/SMBlist.jpg)
+![Picture 9](/images/dancing/SMBlist.jpg)
 
 Now, using the option, we can see there are 4 shares available on this box. 
 
 # Task 6
 
-![Picture 10](../images/TaskPassword.jpg)
+![Picture 10](/images/dancing/TaskPassword.jpg)
 
 I made a small assumption from this point, that ``WorkShares`` was the share we could access without a password. It was also a huge hint from HTB however, it would be incredibly unsecure if they allowed anyone into the Admin or C drive.
 
-![Picture 11](../images/SMBworkshares.jpg)
+![Picture 11](/images/dancing/SMBworkshares.jpg)
 
 We can see within the ``WorkShares`` that there are two folder locations, ``Amy.J`` and ``James.P``. We can access both of these. As shown in the screenshot below, the Amy folder possesses a text file called ``worknotes``. 
 
-![Picture 12](../images/SMBlsworknotes.jpg)
+![Picture 12](/images/dancing/SMBlsworknotes.jpg)
 
 In the next screenshots, we ``get`` the ``worknotes.txt`` file, and look inside to find a set of instructions however, this is most likely not important to us. However, in later boxes, it might be useful to remember that there is an Apache server, and they are in the process of securing the FTP server.
 
-![Picture 13](../images/Getworknotes.jpg)
+![Picture 13](/images/dancing/Getworknotes.jpg)
 
-![Picture 14](../images/Worknotes.jpg)
+![Picture 14](/images/dancing/Worknotes.jpg)
 
 # Task 7
-![Picture 15](../images/TaskGet.jpg)
+![Picture 15](/images/dancing/TaskGet.jpg)
 
 Lastly, as we saw in the previous task, we used the ``get`` command to download the files we want. In the screenshot below, we can see that James has our flat. 
 
-![Picture 16](../images/SMBlsFlag.jpg)
+![Picture 16](/images/dancing/SMBlsFlag.jpg)
 
 So now we ``get flag.txt`` and then open it to get our flag and complete our next box. 
 
-![Picture 17](../images/Getflag.jpg)
+![Picture 17](/images/dancing/Getflag.jpg)
 
-![Picture 18](../images/Flag.jpg)
+![Picture 18](/images/dancing/Flag.jpg)
 
 # Final Thoughts
 

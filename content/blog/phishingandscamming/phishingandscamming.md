@@ -150,17 +150,17 @@ Report scams to [Action Fraud](https://www.actionfraud.police.uk/)
 
 **Real-life examples of scams and their impact**:
 
-![Picture 1](../images/HMRCScam.jpg)
+![Picture 1](/images/pas/HMRCScam.jpg)
 
 It is not shown in the image above, but sometimes, being messaged out of the blue by an unknown number, will show text underneath the chat. This will usually say "This sender is not in your contact list". Immediately, this lets you know that it is a potential scam from an unauthorised number. 
 HMRC is a very large company, who make it a point to not send messages and will, instead, choose to send letters to your address to avoid possibilities of their customers potentially falling for a scam.
 If the link is clicked, it will take you to a fake website, which could get you to input personal information, such as credit card details. This would give the attackers access to your bank account, resulting in a severe loss of money.  
 
-![Picture 2](../images/RealLifeScam.jpg)
+![Picture 2](/images/pas/RealLifeScam.jpg)
 
 This is a simple, yet effective scam. It attempts to make you feel bad by giving a potential fake, sad story. They want you to give them money for their cause.
 
-![Picture 3](../images/GiveawayScam.jpg)
+![Picture 3](/images/pas/GiveawayScam.jpg)
 
 This is a tricky scam, as some of these, are legit Facebook posts. From a professional standpoint, I would say that this is a scam. It tries to get you to like, share and comment, which are three types of engagement. This allows the poster to see that you are an active account. 
 Additionally, these posts usually have a link to "find out more". Clicking these could potentially send you to a fake website, where your information may be stolen.
@@ -218,19 +218,19 @@ Verifying email sources is important for your safety online. Stay observant, edu
 
 **legitimate vs. phishing emails**
 
-![Picture 4](../images/RealTaxEmail.jpg)
+![Picture 4](/images/pas/RealTaxEmail.jpg)
 
 This is a legitimate email. We can see this by looking at the sender address. The email domain is a gov.im one, showing that it is from the Government. 
 Next, from the words "Thank you for your email", we can see that this response was expected.
 To sign off the email, the sender has stated his name, address of the building, a telephone number, and an email address which is linked. By looking up the address and phone number, we would be able to see that this is legitimate information. And, as I have stated above, the email address provided, is one that we can trust. 
 
-![Picture 5](../images/RealTaxEmailHeader.jpg)
+![Picture 5](/images/pas/RealTaxEmailHeader.jpg)
 
 As we can see, the "From" email address is trusted ("gov.im"), and the "to" email address is my own, correct address.
 "Mailed-by" and "signed by" both match. And "security" has a padlock next to it with "Standard encryption (TLS)". 
 
 
-![Picture 6](../images/FacebookScam2.jpg)
+![Picture 6](/images/pas/FacebookScam2.jpg)
 
 This is a standard scam email. The subject of this email includes an emoji. It is a small indicator, but it is worth noting. Legitimate emails will not use emojis, so be sure to look out for them!
 The sender's address is not Facebooks actual company email. We know this by the fact that "Facebook" is spaced out in the address and that there is a string of letters that follow it. 
@@ -238,7 +238,7 @@ It then proceeds to inform us that a new device has attempted to log into the ac
 The text underneath the email states "Not interested in receiving emails like this? Unsubscribe here". This is another attempt at getting you to click a link to a fake website. Ask yourself, why would I be interested in not receiving emails about my accounts being breached?
 The address provided is also an incorrect address. 1 Facebook Way is not where the company's building is located. Ironically, the correct address for Facebook is 1 Hacker Way. 
 
-![Picture 7](../images/FacebookScam2Header.jpg)
+![Picture 7](/images/pas/FacebookScam2Header.jpg)
 
 We can clearly see this is a scam email from the "from" and "to" addresses. I've covered why the sender's address is incorrect. The address the email has been sent to, is not my own personal email address. 
 The "mailed-by" and "signed by" do not match. This indicates that this is a spam email.
@@ -251,14 +251,14 @@ Phishing is a fraudulent act where scammers send emails or messages pretending t
 
 **Examples of phishing emails, messages, and websites**
 
-![Picture 8](../images/FacebookScamHeader.jpg)
+![Picture 8](/images/pas/FacebookScamHeader.jpg)
 
 What can you see here?
 Well, there are a number of issues but, let us start from the top. There is a small drop down button where we can see who sent the email, and who they sent it to. You may see it being sent to your email address and think that it is from a legitimate sender, but, lets take a look at that sender's email address. Does that seem right to you? I don't think so! Additionally, the word "Facebook" is all separated. Therefore, this is a scam email!
 
 Additionally, this is not my email address, so there is another red flag.
 
-![Picture 9](../images/FacebookScam.jpg)
+![Picture 9](/images/pas/FacebookScam.jpg)
 
 On the email, we can clearly see there is a big ""report phishing" banner across the top. This is unlikely to pop up on a legitimate email. Email providers such as Outlook and Gmail have programmed their systems to search for scam/phishing emails in order to stop people falling for these tricks. 
 
@@ -278,13 +278,13 @@ What Should you do if you see an email like this?
 
 Report phishing. Dont click anywhere within the email. If you are unsure, look for the three dots in the top corner and do it from there. 
 
-![Picture 10](../images/ReportPhishing.jpg)
+![Picture 10](/images/pas/ReportPhishing.jpg)
 
 I will show one more phishing tactic before moving onto some of the common tactics.
 
 Shown below, is a fake message from a Youtuber. The image is not mine because I've not had the misfortune of being messaged in this way, however, we can pick it apart.
 
-![Picture 11](../images/FamousScam.jpg)
+![Picture 11](/images/pas/FamousScam.jpg)
 
 First of all, let's look at the username. Is this the type of username you would expect a famous person to use? This username has the word "bot" included, showing that this is not a legitimate account.
 Next, we look at the amount of followers/followings the account has. Someone that is famous would have a significant following, accounts that don't, tend to be fake accounts which are recently set up, with the intention of tricking you/a fan.
@@ -292,7 +292,7 @@ Now, we can dissect the message. "My dear subscriber!" shows that this is a copy
 Lastly, the link provided is a false one. The word "Steam" is misspelled. In addition to this, you can always hover over the link, using a browser, to confirm where the link is sending you. 
 After confirming a false account/message, always report the account and delete the message. Never click on anything within the message.
 
-![Picture 12](../images/InstagramScam.jpg)
+![Picture 12](/images/pas/InstagramScam.jpg)
 
 This is a little trickier to figure out if it's a fake message or not. But, that's okay, we will go through it together.
 Firstly, Instagram would not message you on their platform regarding "suspicious activity". They would opt to email you, instead. Also, the username of "instagram" is not capitalised, showing that this is not the actual platform contacting you. Additionally, there is no blue tick next to the username, indicating that this is not a verified account.
@@ -301,7 +301,7 @@ The message itself doesn't really have any issues with it, especially not with g
 They are using urgent language in an attempt to force the user to quickly click the link to save their account. They give a time frame of "48 hours" until the account is deactivated. Legitimate Instagram wouldn't do this. If they thought that your account had suspicious activity, they would immediately deal with it, and delete your account.
 They attempt to scare the user by informing them that they can't make "any changes to your account such as username, password, email, or phone number". This message is trying to make you believe that the only way your account can be saved, is by clicking the harmful link that they provided.
 
-![Picture 13](../images/InstagramCommentScam.jpg)
+![Picture 13](/images/pas/InstagramCommentScam.jpg)
 
 This scam is fairly easy to notice. 
 The username wouldn't usually be one that you would recognise. It may present itself as a name you don't know, or a random assortment of characters and numbers.
@@ -544,7 +544,7 @@ By following these practices, you can greatly reduce your risk of falling victim
 
 ## Find the Issues
 
-![Picture 13](../images/McAfeeScam.jpg)
+![Picture 13](/images/pas/McAfeeScam.jpg)
 
 1) Senders' address isn't actually McAfee's official email address
 2) Urgent language and repetitive statement
@@ -552,20 +552,20 @@ By following these practices, you can greatly reduce your risk of falling victim
 4) Little grammar in bottom text.
 5) "Here here"
 
-![Picture 14](../images/McAfeeScamHeader.jpg)
+![Picture 14](/images/pas/McAfeeScamHeader.jpg)
 
 1) McAfee email address
 2) "To" address isn't mine
 3) subject includes an emoji
 4) "mailed-by" and "Signed by" don't match
 
-![Picture 15](../images/McAfeeScamFooter.jpg)
+![Picture 15](/images/pas/McAfeeScamFooter.jpg)
 
 1) "Please go here" is another scam attempt
 2) "Please unsubscribe here" is also another scam attempt
 Never click on anything inside these scam emails, even if they look trustworthy.
 
-![Picture 16](../images/PayPalScam.jpg)
+![Picture 16](/images/pas/PayPalScam.jpg)
 
 1) The customer name was my email address, not my actual name.
 2) "Pay Pal" is one word

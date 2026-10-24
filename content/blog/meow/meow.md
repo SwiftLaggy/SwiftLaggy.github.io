@@ -12,23 +12,23 @@ I was successful in completing my first HackTheBox machine, by the name of "Meow
 Before we begin to hack this machine, we must first answer a couple of questions.
 
 # Task 1 
-![Picture 1](../images/Task1.jpg)
+![Picture 1](/images/meow/Task1.jpg)
 
 This is a relatively simple question, with the answer being ``Virtual Machine``. 
 
 # Task 2
-![Picture 2](../images/Task2.jpg)
+![Picture 2](/images/meow/Task2.jpg)
 
 The next answer is ``Terminal``. With the usage of Linux, Terminal is going to be one of the more commonly used tools, aiding me to fulfil tasks.
 
 # Task 3
-![Picture 3](../images/Task3.jpg)
+![Picture 3](/images/meow/Task3.jpg)
 
 Using HTB and THM, you will most likely be using ``OpenVPN`` in order to continue using the boxes. 
 
 # Task 4
 
-![Picture 4](../images/Task4.jpg)
+![Picture 4](/images/meow/Task4.jpg)
 
 To test our connection with a box, you use an ICMP echo request called ``ping``.
 
@@ -40,7 +40,7 @@ ping machineIP
 Once we know that the machine is connected, we can continue with the machine.
 
 # Task 5 
-![Picture 6](../images/Task5.jpg)
+![Picture 6](/images/meow/Task5.jpg)
 
 The next tool we will be using is ``nmap``. Nmap gives us plenty of options, those of which, we will explore in other boxes that I will complete later on, in this website. 
 
@@ -52,12 +52,12 @@ nmap -sV -vv machineIP
 
 # Nmap Result
 Once the scan has been concluded, we will then see a list of results. It is of considerable length however, I have taken a snippet of the most important part. This will showcase the ports and services running on these.
-![Picture 7](../images/NmapResult.png)
+![Picture 7](/images/meow/NmapResult.png)
 
 Evidently, there is only 1 port visibly. This is telnet, and it allows us to answer our next task.
 
 # Task 6
-![Picture 8](../images/Task6.jpg)
+![Picture 8](/images/meow/Task6.jpg)
 
 As we can see in the above scan, port 23 is ``telnet``. This means, we have now answered our next task. Our next step is to prepare to use this service in order to penetrate further into the bo
 
@@ -67,17 +67,17 @@ We now use the terminal in order to login to telnet using the command:
 telnet machineIP
 ```
 
-![Picture 9](../images/Telnet.png)
+![Picture 9](/images/meow/Telnet.png)
 
 # Task 7
-![Picture 10](../images/Task7.jpg)
+![Picture 10](/images/meow/Task7.jpg)
 The final question is looking for the username which doesn't require a password on telnet, for which the answer is ``root``. 
 # Telnet Login
 Using the the default credential of ``root``, I can then login to telnet and instantly be allowed access with root privileges. Upon completion of this step, we can now access the 1s command to view the accessible files:
 
 I then login to telnet using the default credential of ``root`` and was instantly allowed access with root privileges we can now access the ``ls`` command to see what files are accessible:
 
-![Picture 11](../images/Ls.png)
+![Picture 11](/images/meow/Ls.png)
 
 As showcased below, we can see that there is a flag.txt file. This contains the final flag to complete this box. In order to print the contents of the file, we must use the ``cat`` command:
 
@@ -87,7 +87,7 @@ cat flag.txt
 ```
 This will allow us to see the flag.
 
-![Picture 12](../images/Cat.png)
+![Picture 12](/images/meow/Cat.png)
 
 # Finish
 This concludes the finishing stages for the first box on HackTheBox. It proved to be a pleasant introduction and provides a good insight for what the future of this website will hold. I have learnt the basics of telnet and found it rather interesting to engage with. This newfound interest has sparked a curiosity, and I would like to see some exploits with telnet. 

@@ -14,22 +14,22 @@ I was successful in completing the second starting point box for HackTheBox, by 
 Before we begin to hack this machine, we must first answer a couple of questions.
 
 # Task 1
-![Picture 1](../images/FTPAcronym.jpg)
+![Picture 1](/images/fawn/FTPAcronym.jpg)
 
 At the beginning of this task, it asks of you the explanation of the acronym FTP, which is File Transfer Protocol.
 
 # Task 2
-![Picture 2](../images/PortFTP.jpg)
+![Picture 2](/images/fawn/PortFTP.jpg)
 
 File Transfer Protocol is a network protocol available on port 20, which allows for the transfer of data, via a data channel and port 21, which is used to establish a connection between two hosts.
 
 # Task 3
-![Picture 3](../images/SFTPTask.jpg)
+![Picture 3](/images/fawn/SFTPTask.jpg)
 
 To continue the explanation of FTP, we have another protocol called SFTP, which stands for SSH, or secure File Transfer Protocol. This utilises port 22.
 
 # Task 4
-![Picture 4](../images/PingTask.jpg)
+![Picture 4](/images/fawn/PingTask.jpg)
 
 To test our connection with a box, you use an ICMP echo request called ``ping``.
 
@@ -39,7 +39,7 @@ It is important that you are connected to the boxes before you can begin hacking
 ```
 ping machineIP
 ```
-![Picture 5](../images/Ping.jpg)
+![Picture 5](/images/fawn/Ping.jpg)
 
 # Using Nmap
 
@@ -47,38 +47,38 @@ The next tool we will be using is ``nmap``. Nmap gives us plenty of options, tho
 ```
 nmap -O -sV -vv machineIP
 ```
-![Picture 6](../images/Namo1.jpg)
+![Picture 6](/images/fawn/Namo1.jpg)
 
 # Task 5
-![Picture 7](../images/ScanTask.jpg)
-![Picture 8](../images/Nmapport.jpg)
+![Picture 7](/images/fawn/ScanTask.jpg)
+![Picture 8](/images/fawn/Nmapport.jpg)
 
 After using the ``nmap`` command we can see the port that FTP is on and the version of FTP. 
 # Task 6
 
 We can see from the terminal below, that the operating system hosting the FTP server is Unix. Sometimes, the scan can be wrong, other times it will detect an operating system. However, it cannot give specifics as to what version it is, like Windows Server. 
-![Picture 9](../images/Unix.jpg)
-![Picture 10](../images/ScanOS.jpg)
+![Picture 9](/images/fawn/Unix.jpg)
+![Picture 10](/images/fawn/ScanOS.jpg)
 
 # Task 7
 
 As with most commands, there are two ways of viewing a help menu. The first, would be using the ``-h`` option, leading you to the help area. The other, not specific in this box, would be ``man`` , followed the application you are using. 
-![Picture 11](../images/FTPHelp.jpg)
+![Picture 11](/images/fawn/FTPHelp.jpg)
 
 # FTP -h
 
 For your reference, here is a screenshot of the ``ftp -h`` command result within the terminal. 
-![Picture 12](../images/FTPHELP1.jpg)
+![Picture 12](/images/fawn/FTPHELP1.jpg)
 
 # FTP Help
 
 Within the FTP terminal itself, it will also provide you with another help menu for the specific command you can use in whatever scenario you might be in. 
-![Picture 21](../images/FTPHELP2.jpg)
+![Picture 21](/images/fawn/FTPHELP2.jpg)
 
 # Task 8 
 
 The standard version of FTP has its own anonymous account, allowing a non-account holder the ability to view files however, the secure version does not have this option available immediately; it needs to be enabled. 
-![Picture 13](../images/FTPLogin.jpg)
+![Picture 13](/images/fawn/FTPLogin.jpg)
 
 # FTP Login
 
@@ -86,29 +86,29 @@ We now use the terminal in order to login to ftp using the command:
 ```
 ftp machineIP
 ```
-![Picture 14](../images/FTP.jpg)
+![Picture 14](/images/fawn/FTP.jpg)
 
 Then, you can type in "anonymous" for the username with no password and it will allow you to traverse the file structure.
 # Task 9
 
 As you can see in the screenshot above, the 'Login successful' response code is 230.
-![Picture 15](../images/LoginCode.jpg)
+![Picture 15](/images/fawn/LoginCode.jpg)
 
 # Task 10
 
 In a Linux filesystem, you will be using the ``ls`` command to look at the current file structure/directory. There are, of course, a large number of options you can utilise to expand your search through this file structure, such as ``-a`` for all including hidden files. 
-![Picture 16](../images/LSTask.jpg)
-![Picture 17](../images/LS.jpg)
+![Picture 16](/images/fawn/LSTask.jpg)
+![Picture 17](/images/fawn/LS.jpg)
 
 # Task 11
 
 I was not overly familiar with FTP, so I had to use the ``help`` command with the FTP terminal to learn the ``get`` option. Using ``get`` will allow you to download the file you are viewing. 
-![Picture 18](../images/GetTask.jpg)
-![Picture 19](../images/Get.jpg)
+![Picture 18](/images/fawn/GetTask.jpg)
+![Picture 19](/images/fawn/Get.jpg)
 
 As you can see, after downloading the file, we can access it using a text editor on the .txt file and obtain the flag. 
 
-![Picture 20](../images/Flag.jpg)
+![Picture 20](/images/fawn/Flag.jpg)
 
 # Final Thoughts
 

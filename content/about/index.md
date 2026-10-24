@@ -56,8 +56,6 @@ I have achieved the following achievements and certifications:
 
 [![OffSec](OffSec.png)](https://portal.offsec.com/public-profile/22b73338-bab8-44fe-8129-2fa79673365d)
 
-{{< offsec-card >}}
-
 
 
 

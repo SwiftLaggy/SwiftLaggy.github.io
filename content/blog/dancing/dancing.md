@@ -14,7 +14,7 @@ Before we begin to hack this machine, we must first answer a couple of questions
 
 # Task 1
 
-![Picture 1](../images/TaskAcronym.jpg)
+![Picture 1](/images/TaskAcronym.jpg)
 
 At the beginning of this task, it asks of you the explanation of the acronym SMB, which is Server Message Block.
 

@@ -52,7 +52,9 @@ I have achieved the following achievements and certifications:
 
 [![CompTIA Network+ ce Certification](N+.png)](https://www.credly.com/badges/5642430e-4056-4d0e-a03a-8f25d22be8a7)
 
-<script src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=332256"></script>
+[![TryHackMe](THM.png)](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=332256)
+
+[![OffSec](OffSec.png)](https://portal.offsec.com/public-profile/22b73338-bab8-44fe-8129-2fa79673365d)
 
 
 
